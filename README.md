@@ -4,22 +4,26 @@
 This is a toy Flask HTTP API (not really RESTful) that get contentLengths for
 a list of URLs, mainly used to demonstrate testing.
 
+Note that this was tested using Python 3.7 and will certainly not work in
+Python 2.
+
 ## Install and Run
 1. Clone the git directory.
 
 ```shell
 git clone git@github.com:davidfaulkner12/content_length_service.git
-cd content_length_service
 ```
 
 2. (Optional) Create a virtualenv in that directory.
 
 ```shell
 virtualenv content_length_service
+source content_length_service/bin/activate
 ```
 
 3. Install the requirements
 ```shell
+cd content_length_service
 pip install -r requirements.txt
 ```
 
