@@ -8,13 +8,14 @@ a list of URLs, mainly used to demonstrate testing.
 1. Clone the git directory.
 
 ```shell
-git clone tbd
+git clone git@github.com:davidfaulkner12/content_length_service.git
+cd content_length_service
 ```
 
 2. (Optional) Create a virtualenv in that directory.
 
 ```shell
-virtualenv tbd
+virtualenv content_length_service
 ```
 
 3. Install the requirements
