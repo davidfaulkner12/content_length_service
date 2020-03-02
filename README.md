@@ -32,7 +32,9 @@ pip install -r requirements.txt
 python -m unittest tests/test_*
 ```
 
-5. (Optional) Run the conformance tests that url a real urllib
+5. (Optional) Run the conformance tests with the "real" urllib from the standard
+library.
+
 ```shell
 python conformance_test/run_http_gateway.py
 ```
